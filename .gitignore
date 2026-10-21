@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# experiment outputs (caches, images, reports)
+backend/runs/
+
+# datasets: large and licensed, never commit KITTI
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# frontend, for later
+node_modules/
+dist/
